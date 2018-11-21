@@ -3,7 +3,7 @@ $(document).ready(function(){
     
     function play(){
         var codigo_link = $(".input_box").val();
-        var codigo_inicio = codigo_link.replace("H:\\", "smb://almap-file/atendimento$/");
+        var codigo_inicio = codigo_link.replace("I:\\", "smb://172.16.32.36/ClientesID/");
         var pesquisar_codigo = codigo_inicio.search("\\\\");
         
         while(pesquisar_codigo > 0){
